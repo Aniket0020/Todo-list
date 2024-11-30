@@ -1,0 +1,108 @@
+.input {
+    background-color: #e07a5f;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.input input {
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2cc8f;
+    font-size: 1rem;
+}
+
+.input button {
+    padding: 2px 7px;
+    border-radius: 5px;
+    background-color: #3d405b;
+    color: white;
+
+
+}
+
+/* Container for the list */
+
+
+.container {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.list {
+    max-width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+}
+
+
+.list ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    margin: 0px 10px;
+}
+
+.list li::marker {
+    font-weight: bold;
+    color: #333;
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+
+.list li span {
+    flex: 1;
+    /* Allow text to take up the remaining space */
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: wrap;
+
+}
+
+
+.list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.list button:hover {
+    background-color: #e60000;
+}
+
+
+.list li:hover {
+    background-color: #f1f1f1;
+}

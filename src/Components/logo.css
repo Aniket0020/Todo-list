@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #3d405b;
+
+    font-weight: 700;
+
+}
